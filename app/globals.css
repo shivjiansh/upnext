@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-brand-offWhite text-brand-black antialiased;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-6 py-20 md:px-10;
+}
+
+.grid-overlay {
+  background-image: linear-gradient(rgba(10, 10, 10, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 10, 10, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
